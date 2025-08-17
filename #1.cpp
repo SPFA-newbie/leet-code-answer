@@ -19,7 +19,7 @@ public:
 			{
 				ret.push_back(it-nums.begin());
 				
-				//¿ÉÒÔÀûÓÃÒ»¸östructÓÅ»¯µôÕâ¸öÑ­»· 
+				//å¯ä»¥åˆ©ç”¨ä¸€ä¸ªstructä¼˜åŒ–æ‰è¿™ä¸ªå¾ªç¯ 
 				vector<int>::iterator subIt=nums.begin();
 				while(subIt!=nums.end() && (subIt==it || (*subIt)+(*it)!=target))
 					subIt++;
